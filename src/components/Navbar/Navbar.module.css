@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #FA812F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar h3 {
+    color: white;
+    padding-left: 55px;
+}
+
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 55px;
+}
+
+.searchBarBtn {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 2px 5px;
+}

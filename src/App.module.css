@@ -1,0 +1,25 @@
+.main {
+    background-color: #FEF3E2;
+    min-height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.movieListContainer {
+    display: flex;
+    justify-content: space-between; /* Mengatur jarak antar card */
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%; /* Sesuaikan lebar dengan container utama */
+    max-width: 1200px; /* Tambahkan batas maksimum jika diperlukan */
+}
+
